@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <title>Calendar</title>
+</head>
+
+<body>
+  <!-- Calendar Header -->
+  <div class="month">
+    <button class="slide-btn btn-prev" style="margin-left: 20px">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <div class="date">
+      <h1 class="month-title">Month</h1>
+      <br>
+      <span class="year-title">Year</span>
+    </div>
+    <button class="slide-btn btn-next" style="margin-right:20px">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+  </div>
+  <!-- Calendar Data -->
+  <div class="days">
+    <div class="days-child" id="day-mon">
+      <h4>Mon</h4>
+      <div class="calendar-days" id="mon-days">
+      </div>
+    </div>
+
+    <div class="days-child" id="day-tue">
+      <h4>Tue</h4>
+      <div class="calendar-days" id="tue-days"></div>
+    </div>
+
+    <div class="days-child" id="day-wed">
+      <h4>Wed</h4>
+      <div class="calendar-days" id="wed-days"></div>
+    </div>
+
+    <div class="days-child" id="day-thu">
+      <h4>Thu</h4>
+      <div class="calendar-days" id="thu-days"></div>
+
+    </div>
+
+    <div class="days-child" id="day-fri">
+      <h4>Fri</h4>
+      <div class="calendar-days" id="fri-days"></div>
+
+    </div>
+
+    <div class="days-child" id="day-sat">
+      <h4>Sat</h4>
+      <div class="calendar-days" id="sat-days"></div>
+
+    </div>
+
+    <div class="days-child" id="day-sun">
+      <h4>Sun</h4>
+      <div class="calendar-days" id="sun-days"></div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
